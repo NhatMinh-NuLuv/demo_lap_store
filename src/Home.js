@@ -19,30 +19,44 @@ import banner from "./pic/banner.jpg"
 import banner2 from "./pic/banner2.jpg"
 import banner3 from "./pic/banner3.jpg"
 import logo_store from "./pic/lap_store_fix.png"
+import slogan_head1 from "./pic/slogan_head1.jpg"
+import slogan_head2 from "./pic/slogan_head2.jpg"
+import slogan_head3 from "./pic/slogan_head3.jpg"
 
 function Home() {
   return (
 <>
 <div className="header">
+      <div className="upside_head">
+        <img className="slogan_head" src={slogan_head1} alt=""></img>
+        <img className="slogan_head" src={slogan_head2} alt=""></img>
+        <img className="slogan_head" src={slogan_head3} alt=""></img>
+        <img className="slogan_head" src={slogan_head2} alt=""></img>
+        
+
+      </div>
       <div className="header_box">
-      <div className="header_left">
-              <a href=" " className="a">Chăm sóc khách hàng : </a>
-              <a className="a" href="tel:+849888888888">09888888888</a>
-          </div>
-          <div className="header_right">
-            <div className="login">
-              <a className="a"  href="/signin" style={{textDecoration:"none", color:"rgb(0, 0, 0)"}}>Đăng Nhập</a>
+          <div className="header_left">
+              <a href="tel:+849888888888">
+               <button className='custom_help'>Chăm sóc khách hàng : 09888888888</button>
+              </a>
+        </div>
+        <div className="header_right">
+            <div className="signin">
+              <a href='/signin'>
+                <button className="signin_button">Đăng Nhập</button>
+              </a>
             </div>
-            <div className="singin">
-              <a className="a"  href="/signup" style={{textDecoration:"none", color:"rgb(0, 0, 0)"}}>Đăng Ký</a>
+            <div className="signin">
+              <a href='/signup'>
+                <button className="signup_button">Đăng Ký</button>  
+              </a>
             </div>
           </div>
-  
       </div>
       <div className="under_header">
         <div className="logo" onclick="home()">
           <a href="/">
-          {/* <input className="logo-text" type="button" onclick defaultValue="MingShen Lap" /> */}
           <img className="logo_store" src={logo_store} alt="">
           </img>
           </a>

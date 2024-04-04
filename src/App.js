@@ -1,18 +1,14 @@
 import React from 'react';
+import {Route, Routes, } from 'react-router-dom'
 import './new.css';
-import {Route, Routes} from 'react-router-dom'
 import Home from "./Home"
-
 import SignIn from "./signin"
 import SignUp from './signup';
 import Profile from "./profile"
 
-
-
 function App() {
   return (
 <>
-    
           <Routes className="navbar">
             <Route className="home" path ='/' element = {<Home/>}/>
             <Route className="list" path = ''/>
@@ -23,14 +19,9 @@ function App() {
             <Route className="signup" path = '/SignUp' element = {<SignUp />}/>
             <Route className="Home" path = '/' element = {<Home />}/>
             <Route className="profile" path = '/profile' element = {<Profile />}/>
-            
-
           </Routes>
-        
-    
 </>
   )
-
 }
  
 export default App;
