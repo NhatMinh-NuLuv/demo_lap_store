@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../index.css';
+import '../page/index.css';
 import backgr from '../image/pic.png'
 import product2 from "../image/lap2.jpg"
 import product3 from "../image/lap3.jpg"
@@ -27,83 +27,9 @@ import brand7 from "../image/brand7.jpg"
 import brand8 from "../image/brand8.jpg"
 import banner from "../image/banner.jpg"
 import bannerasus from "../image/bannerasus.jpg"
-import logo_store from "../image/lap_store_fix.png"
-import slogan_head1 from "../image/slogan_head1.jpg"
-import slogan_head2 from "../image/slogan_head2.jpg"
-import slogan_head3 from "../image/slogan_head3.jpg"
-
-
 function Home() {
   return (
 <>
-<div className="header">
-      <div className="upside_head">
-        <img className="slogan_head" src={slogan_head1} alt=""></img>
-        <img className="slogan_head" src={slogan_head2} alt=""></img>
-        <img className="slogan_head" src={slogan_head3} alt=""></img>
-        <img className="slogan_head" src={slogan_head2} alt=""></img>
-        
-
-      </div>
-      <div className="header_box">
-          <div className="header_left">
-              <a href="tel:+849888888888">
-               <button className='custom_help'>Chăm sóc khách hàng : 09888888888</button>
-              </a>
-        </div>
-        <div className="header_right">
-            <div className="signin">
-              <a href='/signin'>
-                <button className="signin_button">Đăng Nhập</button>
-              </a>
-            </div>
-            <div className="signin">
-              <a href='/signup'>
-                <button className="signup_button">Đăng Ký</button>  
-              </a>
-            </div>
-          </div>
-      </div>
-      <div className="under_header">
-        <div className="logo" >
-          <a href="/">
-          <img className="logo_store" src={logo_store} alt=""></img>
-          </a>
-        </div>  
-        <div className="search">
-          <div className="search-box">
-            <input className="search-box-input" type="text"  placeholder="Tìm kiếm sản phẩm..." />
-            <input className="search-box-button" type="button"  defaultValue="Tìm kiếm" />
-          </div>
-        </div>
-        <div className="profile">
-        </div>
-        <div className="cart"> </div>
-      </div>
-      <div className="body-contaner">
-        <div className="body-box">
-          <div className="navbar">
-            <div className="home">
-              <a  href="/" className="navbar_text">TRANG CHỦ</a>
-            </div>  
-            <div className="list">
-              <a  href=" " className="navbar_text">DANH MỤC</a>
-            </div>
-            <div className="news">
-              <a  href=" " className="navbar_text">TIN TỨC</a>
-            </div>
-            <div className="intro">
-              <a  href=" " className="navbar_text">GIỚI THIỆU</a>
-            </div>
-            <div className="contact">
-              <a  href=" " className="navbar_text">LIÊN HỆ</a>
-            </div>
-            <div className="profiles">
-              <a href="/profile" className="navbar_text">THÔNG TIN</a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="banner">
         <div className="banner_list">
             <img className="banner1" src={banner} alt=""></img>
@@ -115,9 +41,7 @@ function Home() {
         </div>
         <div className="shop">
           <div className = 'shop_list'>
-            
             <div className='product_noform'>
-                
                     <a href="/macbook">
                       <img className="product_brand1" src ={brand1} alt=""></img>
                     </a>
@@ -142,7 +66,6 @@ function Home() {
                     <a href="/Dell">
                       <img className="product_brand1" src ={brand8} alt=""></img>
                     </a>
-                
             </div>
             <div className="product_form">
               <div className='product_form_up'>
@@ -279,7 +202,7 @@ function Home() {
           
           </div>
         </div>
-    </div>
+
     
 </>
   )

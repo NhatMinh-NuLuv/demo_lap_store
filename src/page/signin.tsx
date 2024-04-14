@@ -1,10 +1,6 @@
 
 import React from 'react';
-import '../index.css';
-import logo_store from "../image/lap_store_fix.png"
-import slogan_head1 from "../image/slogan_head1.jpg"
-import slogan_head2 from "../image/slogan_head2.jpg"
-import slogan_head3 from "../image/slogan_head3.jpg"
+import '../page/index.css';
 import pic_sign_up from "../image/pic_signup.jpg"
 import back_button from "../image/back_button.jpg"
 import google from "../image/google.jpg"
@@ -13,75 +9,6 @@ import zalo from "../image/zalo.jpg"
 function SignIn() {
   return (
 <>
-    <div className="header">
-    <div className="upside_head">
-        <img className="slogan_head" src={slogan_head1} alt=""></img>
-        <img className="slogan_head" src={slogan_head2} alt=""></img>
-        <img className="slogan_head" src={slogan_head3} alt=""></img>
-        <img className="slogan_head" src={slogan_head2} alt=""></img>
-        
-
-      </div>
-      <div className="header_box">
-          <div className="header_left">
-              <a href="tel:+849888888888">
-               <button className='custom_help'>Chăm sóc khách hàng : 09888888888</button>
-              </a>
-        </div>
-        <div className="header_right">
-            <div className="signin">
-              <a href='/signin'>
-                <button className="signin_button">Đăng Nhập</button>
-              </a>
-            </div>
-            <div className="signin">
-              <a href='/signup'>
-                <button className="signup_button">Đăng Ký</button>  
-              </a>
-            </div>
-          </div>
-      </div>
-      <div className="under_header">
-        <div className="logo">
-          <a href="/">
-          <img className="logo_store" src={logo_store} alt="">
-            </img>
-          </a>
-        </div>  
-        <div className="search">
-          <div className="search-box">
-            <input className="search-box-input" type="text"  placeholder="Tìm kiếm sản phẩm..." />
-            <input className="search-box-button" type="button"  defaultValue="Tìm kiếm" />
-          </div>
-        </div>
-        <div className="cart"> </div>
-
-      </div>
-
-      <div className="body-contaner">
-        <div className="body-box">
-          <div className="navbar">
-            <div className="home">
-              <a  href="/" className="navbar_text">TRANG CHỦ</a>
-            </div>  
-            <div className="list">
-              <a  href=" " className="navbar_text">DANH MỤC</a>
-            </div>
-            <div className="news">
-              <a  href=" " className="navbar_text">TIN TỨC</a>
-            </div>
-            <div className="intro">
-              <a  href=" " className="navbar_text">GIỚI THIỆU</a>
-            </div>
-            <div className="contact">
-              <a  href=" " className="navbar_text">LIÊN HỆ</a>
-            </div>
-            <div className="profiles">
-              <a href="/profile" className="navbar_text">THÔNG TIN</a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className='back_button'>
         <a href='/' >
         
@@ -130,7 +57,7 @@ function SignIn() {
                 
             </div>
         </div>
-    </div>
+   
 </>
   )
 

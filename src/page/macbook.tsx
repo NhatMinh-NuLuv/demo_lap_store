@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../index.css';
+import '../page/index.css';
 import backgr from '../image/pic.png'
 import product2 from "../image/lap2.jpg"
 import product3 from "../image/lap3.jpg"
@@ -27,83 +27,12 @@ import brand7 from "../image/brand7.jpg"
 import brand8 from "../image/brand8.jpg"
 import bannermac1 from "../image/bannermac1.jpg"
 import bannermac2 from "../image/bannermac2.jpg"
-import logo_store from "../image/lap_store_fix.png"
-import slogan_head1 from "../image/slogan_head1.jpg"
-import slogan_head2 from "../image/slogan_head2.jpg"
-import slogan_head3 from "../image/slogan_head3.jpg"
 
 
 function Home() {
   return (
 <>
-<div className="header">
-      <div className="upside_head">
-        <img className="slogan_head" src={slogan_head1} alt=""></img>
-        <img className="slogan_head" src={slogan_head2} alt=""></img>
-        <img className="slogan_head" src={slogan_head3} alt=""></img>
-        <img className="slogan_head" src={slogan_head2} alt=""></img>
-        
 
-      </div>
-      <div className="header_box">
-          <div className="header_left">
-              <a href="tel:+849888888888">
-               <button className='custom_help'>Chăm sóc khách hàng : 09888888888</button>
-              </a>
-        </div>
-        <div className="header_right">
-            <div className="signin">
-              <a href='/signin'>
-                <button className="signin_button">Đăng Nhập</button>
-              </a>
-            </div>
-            <div className="signin">
-              <a href='/signup'>
-                <button className="signup_button">Đăng Ký</button>  
-              </a>
-            </div>
-          </div>
-      </div>
-      <div className="under_header">
-        <div className="logo" >
-          <a href="/">
-          <img className="logo_store" src={logo_store} alt=""></img>
-          </a>
-        </div>  
-        <div className="search">
-          <div className="search-box">
-            <input className="search-box-input" type="text"  placeholder="Tìm kiếm sản phẩm..." />
-            <input className="search-box-button" type="button"  defaultValue="Tìm kiếm" />
-          </div>
-        </div>
-        <div className="profile">
-        </div>
-        <div className="cart"> </div>
-      </div>
-      <div className="body-contaner">
-        <div className="body-box">
-          <div className="navbar">
-            <div className="home">
-              <a  href="/" className="navbar_text">TRANG CHỦ</a>
-            </div>  
-            <div className="list">
-              <a  href=" " className="navbar_text">DANH MỤC</a>
-            </div>
-            <div className="news">
-              <a  href=" " className="navbar_text">TIN TỨC</a>
-            </div>
-            <div className="intro">
-              <a  href=" " className="navbar_text">GIỚI THIỆU</a>
-            </div>
-            <div className="contact">
-              <a  href=" " className="navbar_text">LIÊN HỆ</a>
-            </div>
-            <div className="profiles">
-              <a href="/profile" className="navbar_text">THÔNG TIN</a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="banner">
         <div className="banner_list">
             <img className="banner1" src={bannermac1} alt=""></img>
@@ -152,7 +81,9 @@ function Home() {
               </div>
               <div className='product_form_down'>
                 <div className="product_list1">
+                  <a href="/macbook-air-m1">
                   <img className="product_img_1" src={product2} alt=""></img>
+                  </a>
                   <p className="product_deltail">Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt </p>
                   <div className="product_price">
                     <p className="product_price_sale">15.990.000₫</p>
@@ -281,7 +212,7 @@ function Home() {
           
           </div>
         </div>
-    </div>
+
     
 </>
   )
