@@ -1,5 +1,5 @@
 
-  import React, { Children } from 'react';
+  import React from 'react';
   import {Route, Routes, BrowserRouter} from 'react-router-dom';
   import Home from "./page/Home"
   import SignIn from "./page/signin"  
@@ -15,7 +15,11 @@
   import Dell from "./page/Dell"
   import Airm1 from './post/airm1'
   import { Header } from './page/layout';
-  function App() {
+
+
+
+
+  export function App() {
     return (
   <>
             <BrowserRouter >

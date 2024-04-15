@@ -72,7 +72,7 @@ export function Header(){
         </div>
         <div className="profile">
         </div>
-        <div className="cart"> </div>
+        
       </div>
       <div className="body-contaner">
         <div className="body-box">
@@ -239,7 +239,7 @@ export function Header(){
                 </a>
                 <a href="/">
                   <p className="footer_2_text_2">Xem ưu đãi Smember</p>
-                </a>
+                </a>  
                 <a href="/">
                   <p className="footer_2_text_2">Tra thông tin bảo hành</p>
                 </a>

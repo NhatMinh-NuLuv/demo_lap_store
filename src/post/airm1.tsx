@@ -37,8 +37,11 @@ function Home() {
               encrypted-media;  gyroscope;
               picture-in-picture" >
         </iframe>
+        
+        
+
       </div>
-      <div>
+      <div className='under_header_rig'>
         <div className='under_header_right'>
           <div className='type_product_box'>
             <p className='text_in_box'>16GB - 512GB</p>
@@ -53,10 +56,9 @@ function Home() {
             <p className='price_in_box'>40.990.000 đ</p>
           </div>
         </div>
-        <div>
+        <div className='under_header_rig_chose_type'>
           <p className='under_header_right_text'>Chọn màu để xem giá và chi nhánh có hàng</p>
           <div className='under_header_right_color'>
-
             <div className='type_color_product_box'>
               <img className='img_type_lap' src={golden_type_lap} alt="" />
                 <div className='type_color_product_box_small'>
@@ -78,6 +80,21 @@ function Home() {
                   <p className='price_color_in_box'>18.690.000 đ</p>
                 </div>
             </div>
+            
+          </div>
+          <div className='under_header_option'>
+              <div className="under_header_option_box">
+                <input type='check'  className="under_header_option_left">
+                  
+                </input>
+                <input type='input' className="under_header_option_right">
+
+              </input>
+              </div>
+              
+          </div>
+          <div className="save_for_user">
+
           </div>
         </div>
         <div>
@@ -90,8 +107,7 @@ function Home() {
             <p className='sale_text'>Khuyến mãi</p>
             <div className="info_sale_box">
               <a className='text_info_line' href="/">
-              <p className="text_info">Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k (Xem chi tiết)</p>
-                
+                <p className="text_info">Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k (Xem chi tiết)</p>
               </a>
             </div>
         </div>
@@ -111,8 +127,7 @@ function Home() {
       
       
     </div>
-    <div>
-    </div>
+    
     
 </>
   )
