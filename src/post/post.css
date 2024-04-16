@@ -230,11 +230,48 @@
     border-radius: 5px;
     cursor: pointer;
     border: red solid 1px;
-    
     position: relative;
     text-align: center;
     transition: background-color .5s ease;
     width: 45%;
+}
+.under_header_option_left:hover{
+  /* background:linear-gradient(45deg,rgb(192, 192, 192),rgb(211, 9, 9)); */
+  background-color: aliceblue;
+}
+.tc_icon{
+  margin: 20px 0 0 20px;
+  height: 30px;
+  width: 40px;
+}
+
+
+.uhol_price{
+  margin: 7px  0 0 0;
+  color:rgb(65, 65, 65);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.uhor_price{
+  margin: 7px  0 0 0;
+  color:rgb(65, 65, 65);
+  font-size: 16px;
+  font-weight: 600;
+  color: crimson;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.uhol_text{
+  margin:0;
+  font-size: 12px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uhor_text{
+  margin: 0;
+  font-size: 12px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .under_header_option_right{
@@ -247,4 +284,14 @@
     text-align: center;
     transition: background-color .5s ease;
     width: 45%;
+}
+.strong_text{
+  color: crimson;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sfu_text_down{
+  font-size: 15px;
+  color: crimson;
+  
 }

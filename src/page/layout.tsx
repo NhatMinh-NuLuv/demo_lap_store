@@ -29,23 +29,25 @@ import dienthoaivui_icon from "../image/dienthoaivui_icon.jpg"
 import careS_icon from "../image/careS_icon.jpg"
 import Schannel_icon from "../image/Schannel_icon.jpg"
 import forum_icon from "../image/forum_icon.jpg"
+import hc_icon from "../image/facebook_icon_position.png"
 
 export function Header(){
     return(
         <>
-        <div className="upside_head">
+
+            <div className="upside_head">
                 <img className="slogan_head" src={slogan_head1} alt=""></img>
                 <img className="slogan_head" src={slogan_head2} alt=""></img>
                 <img className="slogan_head" src={slogan_head3} alt=""></img>
                 <img className="slogan_head" src={slogan_head2} alt=""></img>
-      </div>
-      <div className="header_box">
+          </div>
+        <div className="header_box">
           <div className="header_left">
               <a href="tel:+849888888888">
                <button className='custom_help'>Chăm sóc khách hàng : 09888888888</button>
               </a>
-        </div>
-        <div className="header_right">
+          </div>
+          <div className="header_right">
             <div className="signin">
               <a href='/signin'>
                 <button className="signin_button">Đăng Nhập</button>
@@ -57,8 +59,8 @@ export function Header(){
               </a>
             </div>
           </div>
-      </div>
-      <div className="under_header">
+        </div>
+        <div className="under_header">
         <div className="logo" >
           <a href="/">
           <img className="logo_store" src={logo_store} alt=""></img>
@@ -76,6 +78,9 @@ export function Header(){
       </div>
       <div className="body-contaner">
         <div className="body-box">
+          <a className='help_contact' href="https://www.facebook.com/nhatminh.bigbro01/">
+            <img className="hc_icon" src={hc_icon} alt="" />
+          </a>
           <div className="navbar">
             <div className="home">
               <a  href="/" className="navbar_text">TRANG CHỦ</a>
@@ -98,6 +103,7 @@ export function Header(){
           </div>
         </div>
       </div>
+       
       <Outlet/>
       <div className='descriptive_para'>
             <div className='para_left'>
@@ -123,7 +129,7 @@ export function Header(){
                   <p className='text_para_box'>Ngày nay, laptop được thiết kế với nhiều tính năng, 
                   tiện ích đặc biệt, có thể xoay, 
                   gập và tách rời nhằm đáp ứng nhiều nhu cầu sử dụng khác nhau của người dùng. 
-                  Bên cạnh đó, máy tính xách tay còn được trang bị màn hình cảm ứng 
+                  Bên cạnh đó, máy tính xách tay còn được trang  bị màn hình cảm ứng 
                   giúp cho các thao tác sử dụng giống hệt máy tính bảng.
 
                   </p><p className='text_para_box'>Bên cạnh đó, nhiều chiếc laptop Ultrabook được thiết kế 

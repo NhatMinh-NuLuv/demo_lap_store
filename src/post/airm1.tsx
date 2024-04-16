@@ -7,6 +7,7 @@ import silver_type_lap from "../image/silver_type.jpg"
 import gray_type_lap from "../image/gray_type.jpg"
 import banner_mac_air_m1 from "../image/tragop_mac_air_m1.jpg"
 import giohang from "../image/gio_hang.jpg"
+import tradecoin_icon from "../image/tradecọin_icon2icon2.png"
 
 
 
@@ -84,17 +85,22 @@ function Home() {
           </div>
           <div className='under_header_option'>
               <div className="under_header_option_box">
-                <input type='check'  className="under_header_option_left">
-                  
-                </input>
-                <input type='input' className="under_header_option_right">
-
-              </input>
+                <img className='tc_icon' src={tradecoin_icon} alt="" />
+                <div   className="under_header_option_left" >
+                  <p className='uhol_price'>16.690.000 đ</p>
+                  <p className='uhol_text'>Khi thu cũ lên đời</p>
+                </div>
+                <div  className="under_header_option_right">
+                  <p className="uhor_price">18.690.000 đ</p>
+                  <p className='uhor_text'>Khi thu cũ lên đời</p>
+              
+              </div>
               </div>
               
           </div>
           <div className="save_for_user">
-
+              <div className="sfu_text_up">Tiết kiệm thêm đến <strong className='strong_text'>187.000đ</strong> cho Smember</div>
+              <a href='' className="sfu_text_down">Kiểm tra giá cuối cùng của bạn </a> {'>'}
           </div>
         </div>
         <div>

@@ -81,7 +81,9 @@ function Home() {
               </div>
               <div className='product_form_down'>
                 <div className="product_list1">
+                <a href="/macbook-air-m1">
                   <img className="product_img_1" src={product2} alt=""></img>
+                  </a>
                   <p className="product_deltail">Laptop MSI Gaming Bravo 15 B7ED-010VN</p>
                   <div className="product_price">
                     <p className="product_price_sale">15.990.000₫</p>
