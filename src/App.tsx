@@ -16,10 +16,7 @@
   import Airm1 from './post/airm1'
   import { Header } from './page/layout';
 
-
-
-
-  export function App() {
+function App() {
     return (
   <>
             <BrowserRouter >

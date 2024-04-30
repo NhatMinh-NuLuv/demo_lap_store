@@ -100,7 +100,7 @@ function Home() {
           </div>
           <div className="save_for_user">
               <div className="sfu_text_up">Tiết kiệm thêm đến <strong className='strong_text'>187.000đ</strong> cho Smember</div>
-              <a href='' className="sfu_text_down">Kiểm tra giá cuối cùng của bạn </a> {'>'}
+              <a href='/' className="sfu_text_down">Kiểm tra giá cuối cùng của bạn </a> {'>'}
           </div>
         </div>
         <div>
@@ -127,6 +127,17 @@ function Home() {
           <img className='cart_icon' src={giohang} alt="" />
           <p className='cart_text'>Them vao gio</p>
         </div>
+        </div>
+        <div className='isment'>
+          <div className="isment_left">
+            <p className='isment_buy_text_up'>TRẢ GÓP 0%</p>
+            <p className='isment_small_text_down'>Trả trước chỉ từ 5.577.000₫</p>
+          </div>
+          <div className="isment_right">
+            <p className='isment_buy_text_up'>TRẢ GÓP 0% QUA THẺ</p>
+            <p className='isment_small_text_down'>(Không phí chuyển đổi 3 - 6 tháng)</p>
+          </div>
+
         </div>
 
       </div>
