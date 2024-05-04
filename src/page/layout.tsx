@@ -44,7 +44,7 @@ export function Header(){
         <div className="header_box">
           <div className="header_left">
               <a href="tel:+849888888888">
-               <button className='custom_help'>Chăm sóc khách hàng : 09888888888</button>
+               <button className='custom_help' title="Gọi ngay để được hỗ trợ">Chăm sóc khách hàng : 09888888888</button>
               </a>
           </div>
           <div className="header_right">
@@ -63,7 +63,7 @@ export function Header(){
         <div className="under_header">
         <div className="logo" >
           <a href="/">
-          <img className="logo_store" src={logo_store} alt=""></img>
+          <img className="logo_store" src={logo_store} alt="" title="Trang Chủ"></img>
           </a>
         </div>  
         <div className="search">

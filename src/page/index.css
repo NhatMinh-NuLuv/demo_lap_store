@@ -165,6 +165,11 @@
 }
 .hc_icon{
   width: 30%;
+  animation: pulse-blue 2s infinite;
+  background-color: #028fe3;
+}
+.hc_icon{
+  
 }
 
 .body-contaner{

@@ -40,7 +40,7 @@ function Home() {
               picture-in-picture" >
         </iframe>
         
-        <div className="infor_product">
+        <div className="infor_product"> 
           <div className="info_box">
             <p className="head_text_info">Thông tin sản phẩm</p> 
             <div className="line1">
@@ -85,8 +85,6 @@ function Home() {
                 <a className='location_contact' href='https://g.page/r/CZcTd_IfEBt9EBA' target = "_ blank"> - 133 Thái Hà, Trung Liệt, Đống Đa</a>
               </div>
             </div>
-
-
           </div>
         </div>
         
