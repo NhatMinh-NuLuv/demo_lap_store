@@ -1,7 +1,7 @@
 import React from "react";
 import '../page/index.css';
 import { Outlet } from "react-router-dom";
-import logo_store from "../image/lap_store_fix.png"
+import logo_store from "../image/lap_store_fix-removebg-preview.png"
 import slogan_head1 from "../image/slogan_head1.jpg"
 import slogan_head2 from "../image/slogan_head2.jpg"
 import slogan_head3 from "../image/slogan_head3.jpg"
@@ -50,7 +50,7 @@ export function Header(){
           <div className="header_right">
             <div className="signin">
               <a href='/signin'>
-                <button className="signin_button">Đăng Nhập</button>
+                <button className="signup_button">Đăng Nhập</button>
               </a>
             </div>
             <div className="signin">

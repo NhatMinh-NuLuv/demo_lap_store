@@ -15,6 +15,7 @@
   import Dell from "./page/Dell"
   import Airm1 from './post/airm1'
   import { Header } from './page/layout';
+  
 
 function App() {
     return (
@@ -35,9 +36,11 @@ function App() {
                   <Route path = '/LG' element = {<LG/>}/>
                   <Route path = '/Dell' element = {<Dell/>}/>
                   <Route path = '/macbook-air-m1' element = {<Airm1/>}/>
+                  
                 </Route>
               </Routes>
             </BrowserRouter>
+            
   </>
     )
   }
